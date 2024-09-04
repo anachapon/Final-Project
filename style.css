@@ -7,6 +7,7 @@
 }
 
 
+
 .nav-menu {
     display: flex;
     justify-content: center;
@@ -16,9 +17,12 @@
 
 
 }
-
+/**/
 .signature {
     display: flex;
+    padding: 0 39px 0 0;
+    max-width: 100%;
+    text-align: center;
 }
 .container {
     display: inline-block;
@@ -174,7 +178,7 @@ nav {
   }
 
   
-  /* background images for each location */
+  /* background images for each project*/
   .anitta { background-image: url('https://cdn.myportfolio.com/53295a0c-0414-4eda-842a-1d2fffa86103/b2f71d57-7855-4fcf-be1b-2f57bb30ae7e_rw_1920.png?h=f2f51898c3109b401638314f84ddb9ff'); }
 
   .karolg { background-image: url('https://cdn.myportfolio.com/53295a0c-0414-4eda-842a-1d2fffa86103/9facbf56-d533-431d-a16a-7fb4f567ff54_rw_1920.png?h=428042ea7965a54355383e228a749f38'); }

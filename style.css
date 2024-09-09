@@ -52,7 +52,6 @@ body {
     font-family: ;
 }
 
-/* off-screen-menu */
 .off-screen-menu {
     background-color:  rgb(255, 255, 255);
     height: 100vh;
@@ -78,8 +77,6 @@ body {
     right: 0;
 }
 
-
-/* nav */
 nav {
     padding: 1rem;
     display: flex;
@@ -89,8 +86,6 @@ nav {
     right: 0
 }
 
-
-/* ham menu */
 .ham-menu {
     height: 35px;
     width: 30px;
@@ -172,13 +167,12 @@ nav {
     color: white;
     display: flex;
     flex-direction: column;
-    height: 300px; /* approximate estimate */
+    height: 300px;
     justify-content: space-around;
     text-align: center;
   }
 
   
-  /* background images for each project*/
   .anitta { background-image: url('https://cdn.myportfolio.com/53295a0c-0414-4eda-842a-1d2fffa86103/b2f71d57-7855-4fcf-be1b-2f57bb30ae7e_rw_1920.png?h=f2f51898c3109b401638314f84ddb9ff'); }
 
   .karolg { background-image: url('https://cdn.myportfolio.com/53295a0c-0414-4eda-842a-1d2fffa86103/9facbf56-d533-431d-a16a-7fb4f567ff54_rw_1920.png?h=428042ea7965a54355383e228a749f38'); }
@@ -189,7 +183,6 @@ nav {
   }
 
 
-/** here we stack a black background on top of the image. To let the image bleed through, we’re also introducing transparency in the background  colour */
 .image-mask-darken:before {
     position: absolute;
     top: 0;
@@ -200,11 +193,12 @@ nav {
     content: "";
   }
   
-  /* use absolute positioning to put text atop faded background */
   .content-over-mask {
     position: absolute;
 
 }
+
+
 
 .img-container {
     display: flex;
@@ -213,16 +207,18 @@ nav {
     align-items: stretch;
     margin: 25px;
 }
+ 
 
-  
   @media screen and (min-width: 768px) {
     .img-container{
-      flex-direction: row;
+      flex-direction: column-reverse;
     }
-
-   
   }
-   /* 
+
+  
+  
+  
+/* elements for media query
 .project1 {
     width: 370px;
     height: 100px;
@@ -248,14 +244,13 @@ nav {
     }
   }
   
-  
+
 
  .protxt {
        opacity:0; 
     position: absolute;}
 
- /** create a div for the txt only */
-  /* 
+
  .project1:hover {
      justify-content: center;
     align-items: center;
